@@ -18,7 +18,7 @@ namespace TeslaMTF
                 ev.IsAllowed = false;
 
                 ev.IsTriggerable = false;
-                Log.Info("Metodo chiamato");
+                Log.Debug("Metodo chiamato");
             }
         }
 
