@@ -18,7 +18,7 @@ namespace Tesla
         {
             Exiled.Events.Handlers.Player.TriggeringTesla += TeslaHandler.OnTriggeringTesla;
             base.OnEnabled();
-            Log.Info("Plugin Attivo");
+            Log.Debug("Plugin Attivo");
         }
 
         public override void OnDisabled()
